@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css_veiculo.css" media="screen" />
+    
+    <title>CópiaSite</title>
+</head>
+<body>
+    <form action="POST">
+        <div>
+            <h1><strong>Veículo</strong></h1>
+        </div>
+        <div>
+            <h2>
+                Placa
+            </h2>
+            <input type="text" name="Placa" id="placa">
+            <h2>
+                Nome
+            </h2>
+            <input type="text" name="Nome" id="nome">
+            <h2>
+                Nº do Patrimônio
+            </h2>
+            <input type="text" name="Nº do Patrimônio" id="patrimonio">
+            <h2>Tipo de frota</h2>
+            <select>
+                <option>Própria</option>
+                <option>Locada</option>
+                <option>Cedida</option>
+            </select>
+
+        </div>
+        <div>
+                <h1>Especificações</h1>
+        </div>
+        <div>
+                <h2><strong>Marca / Modelo</strong></h2>
+                <select>
+                    <option>1</option>
+                </select>
+                <h2>Ano</h2>
+                    <input type="text" name="ano" id="ano_veiculo">
+                <h2>Renavam / Nº da Nota Fiscal</h2>
+                    <input type="text" name="renavam"><br>
+                <h6>Ao selecionar Máquina ou Equipamento, por favor informe neste campo o nº da nota fiscal</h6><br>
+                <h2>Número do Chassis</h2>
+                    <input type="text" name="chassis" id="chassi">
+
+        </div>
+        <div>
+                <h2>Motorização</h2>
+                <input type="text" name="Placa" id="placa">
+                <h2>Familia</h2>
+                <select>
+                    <option>Própria</option>
+                    <option>Locada</option>
+                    <option>Cedida</option>
+                </select>
+
+                <h2>Localização</h2>
+                <input type="text" name="localização" id="localização"><br>
+                <h2>Porte</h2>
+                <select>
+                    <option>leve</option>
+                    <option>Pequena</option>
+                    <option>Média</option>
+                    <option>Cedida</option>
+                </select>
+                <h2>Cor</h2>
+                <select>
+                    <option>Preto</option>
+                    <option>Azul</option>
+                    <option>Verde</option>
+                    <option>Branco</option>
+                </select>
+
+        </div>
+        <div>
+            <h1>Parâmetros Iniciais</h1><br>
+
+            <h2>Capacidade</h2>
+                <input type="text" name="capacidade_tanque" id="capacidade_tanque"><br>
+                <h6>Insira a capacidade do tanque de combustível (Litros)</h6>
+            <h2>Hodometro / Horímetro Inicial</h2>
+                <input type="text" name="hodometro" id="hodometro"><br>
+        </div>
+        <div>
+            <h1>Parâmetros de abastecimento e Manutenção</h1><br>
+
+            <h2>Produtos Disponíveis</h2>
+                <input type="text" name="capacidade_tanque" id="capacidade_tanque"><br>
+                <h6>Insira os combustíveis e produtos disponíveis</h6>
+            <h2>Intervalo mínimo para abastecimento (minutos)</h2>
+                <input type="text" name="intervalo_minimo" id="intervalo_minimo"><br>
+            <h2>Mínimo KM por litro</h2>
+                <input type="text" name="mínimo_litro" id="mínimo_litro"><br>
+            <h2>Máximo KM por litro</h2>
+                <input type="text" name="máximo_litro" id="máximo_litro"><br>
+            
+            
+            <input type="checkbox" name="Permitir_Manutenção"><label>Permitir Manutenção</label>
+            <input type="checkbox" name="Permitir_Manutenção"><label>Habilitar validação de hodômetro</label>
+            
+        </div>
+
+        <div>
+            <h1>Segurança</h1><br>
+
+            <h2>Pergunta de Segurança</h2>
+                <input type="text" name="x" id="x"><br>
+            <h2>Resposta de Segurança</h2>
+                <input type="text" name="x" id="x"><br>
+        </div>
+        <div>
+            <h1>Novo Cartão</h1><br>
+
+            <h2>Número do Cartão</h2>
+                <input type="text" name="x" id="x"><br>
+            <h2>Senha</h2>
+                <input type="password" name="x" id="x"><br>
+        </div>
+
+        <div>
+            <h2>Observações</h2>
+            <textarea>
+        </div>
+
+        <section>
+            <button type="submit">Neviar</button>
+        </section>
+
+        <section>
+            <input type="submit" value="Submit">Enviar
+        </section>
+
+
+        <footer>
+            <p>FIM PORRA</p>
+        </footer>
+
+        
+
+    </form>
+    
+</body>
+</html>
